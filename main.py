@@ -7,7 +7,7 @@ private_key: bytes
 public_key: bytes
 
 # Add the name of the recipients public key here
-recipient_public_key = 'henrik.pem'
+recipient_public_key = 'public.pem'
 
 class Encryption:
     def generate_keypair_if_not_exists():
