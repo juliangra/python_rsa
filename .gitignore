@@ -1,4 +1,5 @@
 keys/*.pem
+!keys/julian.pem
 /*.pem
 
 .vscode

@@ -7,7 +7,7 @@ global private_key
 global public_key
 
 # Add the name of the recipients public key here
-recipient_public_key = 'magnus.pem'
+recipient_public_key = 'julian.pem'
 
 
 class Encryption:
