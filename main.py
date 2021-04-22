@@ -3,12 +3,11 @@ from Crypto.Cipher import PKCS1_OAEP
 from pathlib import Path
 import base64
 
-global private_key
-global public_key
+private_key: bytes
+public_key: bytes
 
 # Add the name of the recipients public key here
-recipient_public_key = 'julian.pem'
-
+recipient_public_key = 'henrik.pem'
 
 class Encryption:
     def generate_keypair_if_not_exists():
